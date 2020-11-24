@@ -6,7 +6,7 @@
 * {
     font-family: LaPontaise-Medium;
     color:white;
-    font-size:16px;
+    font-size:14px;
     margin: 0;
     padding: 0;
 }
@@ -191,7 +191,7 @@ input:hover {
 
     }
     .x{
-        margin-top:70px;
+        margin-top:0px;
     }
 
 }
@@ -201,18 +201,18 @@ input:hover {
    .text {
        margin-left: 550px;
        font-weight: bold;
+  
    }
    .paragraph2{
        margin-top:30px;
    }
    .text button{}
     .navbar img {
-        margin-top: 30px;
-        margin-left: 50px;
+    
     }
     .x{
         margin-top:
-            80px;
+            75px;
       
     }
 }
