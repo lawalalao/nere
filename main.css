@@ -124,6 +124,9 @@ input:hover {
          justify-content: center;
          text-align: center;
      }
+     .paragraph2 {
+         margin-top:15px;
+     }
      .text button{
          text-align: center;
          margin-left: 50px;
@@ -144,6 +147,9 @@ input:hover {
         font-size: 20px;
         text-align: center;
     }
+    .paragraph2 {
+        margin-top: 20px;
+    }
     .text button{
         margin-left:70px;
         text-align: center;
@@ -163,6 +169,9 @@ input:hover {
 
     .text{
          margin-top:30px;
+    }
+    .paragraph2 {
+        margin-top: 20px;
     }
     .text button{
         margin-left:100px;
@@ -193,6 +202,9 @@ input:hover {
        margin-left: 550px;
        font-weight: bold;
    }
+   .paragraph2{
+       margin-top:30px;
+   }
    .text button{}
     .navbar img {
         margin-top: 30px;
@@ -200,7 +212,7 @@ input:hover {
     }
     .x{
         margin-top:
-            130px;
+            80px;
       
     }
 }
