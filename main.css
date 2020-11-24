@@ -1,4 +1,10 @@
+@font-face {
+    font-family: LaPontaise-Medium;
+    src: url('LaPontaise-Medium.otf');
+}
+
 * {
+    font-family: LaPontaise-Medium;
     color:white;
     font-size:16px;
     margin: 0;
@@ -44,8 +50,7 @@ video#bgvid {
 }
 input,
 button {
-    font-family: 'Allerta Stencil',
-        sans-serif;
+    font-family: LaPontaise-Medium;
 }
 
 form {
@@ -76,8 +81,7 @@ input:hover {
 }
 .button {
     background-color:rgb(51, 51, 224);
-    font-family: 'Allerta Stencil',
-        sans-serif;
+  font-family: LaPontaise-Medium;
     border: none;
     border-radius: 5px;
     box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.3);
@@ -120,10 +124,10 @@ input:hover {
          justify-content: center;
          text-align: center;
      }
-     .text form{
+     .text button{
          text-align: center;
-         margin-left: 80px;
-         width: 80%;
+         margin-left: 50px;
+         width: 70%;
      }
   
      .x .row{
@@ -140,51 +144,63 @@ input:hover {
         font-size: 20px;
         text-align: center;
     }
-    .text form{
-        margin-left:150px;
+    .text button{
+        margin-left:70px;
         text-align: center;
-        width:80%;
+        width:60%;
     }
+      .x .row {
+          text-align: center;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+      }
    
 }
 
 
 @media (min-width: 768px) and (max-width: 991.98px) {
+
     .text{
          margin-top:30px;
     }
-    .text form{
+    .text button{
         margin-left:100px;
        
 
     }
-    .x{
-        margin-top:  200px;
-    }
+   
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
+   
      .text {
          margin-top: 30px;
      }
-    .text form {
+    .text button {
         margin-left: 100px;
 
     }
+    .x{
+        margin-top:70px;
+    }
+
 }
 
 
 @media (min-width: 1200px) {
    .text {
        margin-left: 550px;
+       font-weight: bold;
    }
+   .text button{}
     .navbar img {
         margin-top: 30px;
         margin-left: 50px;
     }
     .x{
         margin-top:
-            100px;
+            130px;
       
     }
 }
