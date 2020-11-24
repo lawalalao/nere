@@ -120,6 +120,13 @@ input:hover {
          margin-left: 80px;
          width: 80%;
      }
+  
+     .x .row{
+ text-align: center;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+     }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -133,7 +140,7 @@ input:hover {
         text-align: center;
         width:80%;
     }
-  
+   
 }
 
 
@@ -146,7 +153,9 @@ input:hover {
        
 
     }
-    
+    .x{
+        margin-top:  200px;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
