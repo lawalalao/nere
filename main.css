@@ -116,13 +116,17 @@ input:hover {
     .navbar img {
         margin: 10px 10px auto;
     }
+ * {
+     font-size: 10px;
+ }
      .text {
          display: flex;
         flex-direction:column;
         margin-top:20px;
-         font-size: 23px;
+         font-size: 10px;
          justify-content: center;
          text-align: center;
+        
      }
      .paragraph2 {
          margin-top:15px;
@@ -142,9 +146,10 @@ input:hover {
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
+    
     .text{
       
-        font-size: 20px;
+        font-size: 1px;
         text-align: center;
     }
     .paragraph2 {
@@ -166,7 +171,7 @@ input:hover {
 
 
 @media (min-width: 768px) and (max-width: 991.98px) {
-
+    
     .text{
          margin-top:30px;
     }
