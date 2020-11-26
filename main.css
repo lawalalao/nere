@@ -63,23 +63,11 @@ form {
   
 }
 
-input {
-    color:black;
-    box-sizing: border-box;
-    width: 60%;
-    height: 40px;
-    padding-left: 20px;
-    font-weight: 600;
-    border: 1px solid hsl(245, 35%, 87%);
-    border-radius: 5px;
-    margin-bottom: 10px;
-    transition: 0.1s;
-}
 
-input:hover {
-    border: 1px solid hsl(246, 25%, 77%);
-}
+
+
 .button {
+    text-align: center;
     background-color:rgb(51, 51, 224);
     font-family: LaPontaise-Medium;
     border: none;
@@ -131,7 +119,7 @@ input:hover {
      .paragraph2 {
          margin-top:15px;
      }
-     .text button{
+     .text a{
          text-align: center;
          margin-left: 50px;
          width: 70%;
@@ -155,7 +143,7 @@ input:hover {
     .paragraph2 {
         margin-top: 20px;
     }
-    .text button{
+    .text a{
         margin-left:70px;
         text-align: center;
         width:60%;
@@ -178,7 +166,7 @@ input:hover {
     .paragraph2 {
         margin-top: 20px;
     }
-    .text button{
+    .text a{
         margin-left:100px;
        
 
@@ -191,7 +179,7 @@ input:hover {
      .text {
          margin-top: 30px;
      }
-    .text button {
+    .text a {
         margin-left: 100px;
 
     }
